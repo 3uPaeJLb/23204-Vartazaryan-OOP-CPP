@@ -156,7 +156,7 @@ TEST(BitArray, SetWithOperands) {
 //проверка оператора побитового сдвига влево (>>=) в классе BitArray
 TEST (BitArray, LeftShiftTest) {
     BitArray array(32, 1);
-    array <<= 1;
+    array <<= 31;
 
     string str = "10000000000000000000000000000000";
 
